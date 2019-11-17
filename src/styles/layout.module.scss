@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap');
+$break-point: 720px;
+
+
+.layout {
+  width: 100%;
+  max-width: 720px;
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: Noto Sans, sans-serif;
+}
+
+.main {
+  padding: 0 15px;
+  @media (min-width: $break-point) {
+    padding: 0 25px;
+  }
+}
+
+.footer {
+  padding-top: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  box-shadow: none;
+}
