@@ -43,7 +43,7 @@ export const pageQuery = graphql`
                         slug
                     }
                     frontmatter {
-                        first_published(formatString: "MMMM DD, YYYY")
+                        date(formatString: "MMMM DD, YYYY")
                         title
                         description
                         language

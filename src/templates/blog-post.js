@@ -65,7 +65,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        first_published(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM DD, YYYY")
         description
       }
     }
