@@ -1,7 +1,7 @@
 ---
 title: Hello World
 location: "Jakarta, Indonesia"
-first_published: "2019-11-17"
+date: "2019-11-17"
 description: "Hello, my name is Satria H R Harsono. I have a new blog here, hoping that you can look up on to this first post."
 language: "en"
 ---
