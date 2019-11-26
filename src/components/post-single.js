@@ -10,7 +10,7 @@ const PostSingle = props => {
         <h1 className={module.title}>{post.frontmatter.title}</h1>
         <hr className={module.line} />
         <p className={module.stamp}>
-          published at {post.frontmatter.date}
+          published at {post.frontmatter.first_published}
         </p>
       </header>
       <div

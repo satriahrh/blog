@@ -9,7 +9,7 @@ exports.createPages = async ({ graphql, actions }) => {
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { fields: [frontmatter___first_published], order: DESC }
           limit: 1000
         ) {
           edges {
@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                language
               }
             }
           }
@@ -58,7 +59,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: `/${node.frontmatter.language}${value}`,
     })
   }
 }

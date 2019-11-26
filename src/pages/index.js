@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import PostItem from "../components/post-item"
 import SEO from "../components/seo"
@@ -14,8 +13,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts"/>
-        <Bio/>
+        <SEO title="Home"/>
         <div>
           {posts.map(({ node }) => {
             return (
@@ -37,7 +35,7 @@ export const pageQuery = graphql`
                 title
             }
         }
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+        allMarkdownRemark(sort: { fields: [frontmatter___first_published], order: DESC }) {
             edges {
                 node {
                     excerpt
@@ -45,9 +43,10 @@ export const pageQuery = graphql`
                         slug
                     }
                     frontmatter {
-                        date(formatString: "MMMM DD, YYYY")
+                        first_published(formatString: "MMMM DD, YYYY")
                         title
                         description
+                        language
                     }
                 }
             }
