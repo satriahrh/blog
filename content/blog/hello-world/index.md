@@ -78,13 +78,13 @@ You could consume my post as you like, as you enjoy.
 The thing is just don't be mad if you will come into some confusing of some keywords you do not understand.
 I will be patient if you ask me nicely, but just be mind that this is about my software engineering career journey :)
 
-## How Can You Get Involced?
+## How Can You Get Involved?
 
 I have three channels for you to get involed on my blog.
 The absolute way is by reading my content, by subscribing my content, and check up on my blog regularly even if this blog doesn't have any reminder system.
 I would be very happy when I look up onto the Google Analytics report of my blog, found out that the number of return visitor is insancely high.
 
-The second channel would be email me to [`blog.satriahrh<at>gmail<dot>com`](mailto:blog.satriahrh@gmail.com).
+The second channel would be email me to [blog.satriahrh\<at\>gmail\<dot\>com](mailto:blog.satriahrh@gmail.com).
 I am hoping that you would send me some email for more private and long story there.
 You can email me with a casual one, or I believe there are some guy out there using an email to send a formal text.
 Thats up to you guys and I will be very flexible to my reader.
@@ -99,5 +99,5 @@ I will be very interested to seeing you guys there.
 I have made up my mind for this blog to be a place where I can share my thought regarding my software engineering career journey.
 However I still hadn't forbid any idea of surrounding content, since it is a wide topic actually.
 And you might got a very wrong idea of this blog untill you found out that the content you will reading up is not about software engineering career journey, and I won't be sorry for that.
-Lastly, I hope you enjoy my blog and give me your thought through email to [`blog.satriahrh<at>gmail<dot>com`](mailto:blog.satriahrh@gmail.com) or tweet me to twitter [@satriahrh](twitter.com/satriahrh)
+Lastly, I hope you enjoy my blog and give me your thought through email to [blog.satriahrh\<at\>gmail\<dot\>com](mailto:blog.satriahrh@gmail.com) or tweet me to twitter [@satriahrh](twitter.com/satriahrh)
 

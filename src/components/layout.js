@@ -10,7 +10,7 @@ class Layout extends React.Component {
     return (
       <div className={module.layout}>
         <Header>{title}</Header>
-        <main className={module.main}>{children}</main>
+        <main>{children}</main>
         <footer className={module.footer}>
           {title} © {new Date().getFullYear()} e: <a href="mailto:blog.satria@gmail.com">blog.satria@gmail.com</a> t: <a href="https://twitter.com/satriahrh">@satriahrh</a>
         </footer>

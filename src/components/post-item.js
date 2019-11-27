@@ -7,14 +7,13 @@ const PostItem = props => {
   return (
     <Link to={post.fields.slug} className={module.post}>
       <article className={module.post}>
-        <header>
+        <header className={module.header}>
           <h2 className={module.title}>{post.frontmatter.title}</h2>
-          <hr className={module.line}/>
-          <p className={module.stamp}>
+          <small className={module.stamp}>
             published at {post.frontmatter.date}
-          </p>
+          </small>
         </header>
-        <section>
+        <section className={module.section}>
           <p className={module.description}
              dangerouslySetInnerHTML={{
                __html: post.frontmatter.description || post.excerpt,

@@ -1,15 +1,10 @@
 $break-point: 720px;
 
-.title {
-  font-size: 24px;
-  line-height: 25px;
-  @media (min-width: $break-point) {
-    font-size: 32px;
-    line-height: 31px;
-  }
+.single {
+  margin: 0;
+}
 
-  font-weight: bold;
-  letter-spacing: 0.1em;
+.title {
   margin: 0;
 }
 
@@ -20,33 +15,12 @@ $break-point: 720px;
 .meta {
   margin: 0;
 
-  font-size: 14px;
-  line-height: 19px;
-  @media (min-width: $break-point) {
-    font-size: 18px;
-    line-height: 25px;
-  }
-  letter-spacing: 0.2em;
 }
 
 .content {
-  margin: 19px 0 0;
+  margin: 0;
   @media (min-width: $break-point) {
     margin-top: 36px;
   }
-  font-weight: lighter;
-  font-size: 18px;
-  line-height: 25px;
-  @media (min-width: $break-point) {
-    font-size: 21px;
-    line-height: 29px;
-  }
-  letter-spacing: 0.1em;
-
-  p {
-    margin: 0 0 7px 0;
-    @media (min-width: $break-point) {
-      margin: 0 0 14px 0;
-    }
-  }
 }
+
