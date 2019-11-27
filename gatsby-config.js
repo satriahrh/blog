@@ -2,12 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `satriahrh`,
     author: `Satria H R Harsono`,
-    description: `Software Engineer, Backend, Web API.`,
-    siteUrl: `https://satriahrh.com/`,
+    description: `A Blog by Satria H R Harsono. Software Engineer, Backend, Web API.`,
+    siteUrl: `https://satriahrh.github.io/`,
     social: {
       twitter: `satriahrh`,
     },
   },
+  pathPrefix: "/blog",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
