@@ -26,4 +26,12 @@ const PostItem = props => {
   )
 }
 
-export default PostItem
+const PostList = ({ posts }) => (
+  <div>
+    {posts.map(({ node }) => {
+      return <PostItem key={node.fields.slug} post={node} />
+    })}
+  </div>
+)
+
+export default PostList
