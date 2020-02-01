@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap");
-@import url("~gutenberg-web-type/src/style/gutenberg.scss");
-
+@import "~milligram/dist/milligram.css";
 $break-point: 720px;
 
 .layout {
@@ -8,7 +6,7 @@ $break-point: 720px;
   //max-width: 720px;
   padding: 0 5%;
   margin: 0 auto;
-  font-family: Noto Sans, sans-serif;
+  //font-family: Noto Sans, sans-serif;
 }
 
 .main {
