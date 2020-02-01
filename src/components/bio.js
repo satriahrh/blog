@@ -7,7 +7,6 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -32,7 +31,7 @@ const Bio = () => {
         Written by <strong>{author}</strong>, Software Engineer Backend,
         currently at Jakarta and always open.
         {` `}
-        You should <strike>hire</hire> contact me :p
+        You should <strike>hire</strike> contact me :p
       </p>
     </div>
   )
