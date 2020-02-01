@@ -31,7 +31,8 @@ const Bio = () => {
         Written by <strong>{author}</strong>, Software Engineer Backend,
         currently at Jakarta and always open.
         {` `}
-        You should <strike>hire</strike> contact me :p
+        You should <strike>hire</strike> contact me :p by email at{" "}
+        <a href="mailto:satriahrh@gmail.com">satriahrh@gmail.com</a>
       </p>
     </div>
   )
