@@ -100,4 +100,3 @@ I have made up my mind for this blog to be a place where I can share my thought 
 However I still hadn't forbid any idea of surrounding content, since it is a wide topic actually.
 And you might got a very wrong idea of this blog untill you found out that the content you will reading up is not about software engineering career journey, and I won't be sorry for that.
 Lastly, I hope you enjoy my blog and give me your thought through email to [blog.satriahrh\<at\>gmail\<dot\>com](mailto:blog.satriahrh@gmail.com) or tweet me to twitter [@satriahrh](twitter.com/satriahrh)
-

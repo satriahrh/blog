@@ -17,7 +17,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <PostSingle post={post}/>
+        <PostSingle post={post} />
 
         <nav>
           <ul

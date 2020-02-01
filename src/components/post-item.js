@@ -14,10 +14,11 @@ const PostItem = props => {
           </small>
         </header>
         <section className={module.section}>
-          <p className={module.description}
-             dangerouslySetInnerHTML={{
-               __html: post.frontmatter.description || post.excerpt,
-             }}
+          <p
+            className={module.description}
+            dangerouslySetInnerHTML={{
+              __html: post.frontmatter.description || post.excerpt,
+            }}
           />
         </section>
       </article>
@@ -25,4 +26,4 @@ const PostItem = props => {
   )
 }
 
-export default PostItem;
+export default PostItem
