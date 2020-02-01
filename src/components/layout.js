@@ -8,15 +8,15 @@ class Layout extends React.Component {
     const { title, children } = this.props
 
     return (
-      <div className={module.layout}>
+      <>
         <Header>{title}</Header>
-        <main>{children}</main>
+        <main className={module.layout}>{children}</main>
         <footer className={module.footer}>
           {title} © 2019 2020 e:{" "}
           <a href="mailto:satria@gmail.com">satria@gmail.com</a> t:{" "}
           <a href="https://twitter.com/satriahrh">@satriahrh</a>
         </footer>
-      </div>
+      </>
     )
   }
 }

@@ -2,6 +2,11 @@ $break-point: 720px;
 
 .single {
   margin: 0;
+  width: 100%;
+  a {
+    color: #dd3333;
+    text-decoration: none;
+  }
 }
 
 .title {
@@ -14,7 +19,6 @@ $break-point: 720px;
 
 .meta {
   margin: 0;
-
 }
 
 .content {
@@ -23,4 +27,3 @@ $break-point: 720px;
     margin-top: 36px;
   }
 }
-
