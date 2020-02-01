@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import PostItem from "../components/post-item"
+import PostList from "../components/post-list"
 import SEO from "../components/seo"
 
 class BlogIndex extends React.Component {
@@ -14,11 +14,7 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Blog" />
-        <div>
-          {posts.map(({ node }) => {
-            return <PostItem key={node.fields.slug} post={node} />
-          })}
-        </div>
+        <PostList posts={posts} />
       </Layout>
     )
   }

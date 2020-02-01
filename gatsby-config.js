@@ -58,7 +58,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: `content/assets/satriahrh-icon.png`,
+        background_color: `#dd3333`,
+        theme_color: `#dd3333`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,

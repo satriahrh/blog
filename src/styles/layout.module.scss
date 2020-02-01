@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap');
-@import url('~gutenberg-web-type/src/style/gutenberg.scss');
-
+@import "~milligram/dist/milligram.css";
 $break-point: 720px;
 
 .layout {
-  //width: 100%;
-  //max-width: 720px;
-  padding: 0 auto;
-  margin: 0 auto;
-  font-family: Noto Sans, sans-serif;
+  padding: 0 5%;
+  margin: 0 auto 30px;
+  max-width: $break-point;
+  min-height: 80vh;
+  color: black;
+  a {
+    color: #dd3333;
+  }
 }
 
 .main {
@@ -16,10 +17,6 @@ $break-point: 720px;
   @media (min-width: $break-point) {
     padding: 0 25px;
   }
-}
-
-.footer {
-  padding-top: 25px;
 }
 
 body {

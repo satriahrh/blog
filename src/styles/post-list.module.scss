@@ -1,6 +1,7 @@
 $break-point: 720px;
 
 .post {
+  width: 100%;
   display: block;
   margin: 6px 0 0 0;
   @media (min-width: $break-point) {
@@ -21,7 +22,6 @@ $break-point: 720px;
 }
 
 .title {
-
   margin: 0;
 }
 
