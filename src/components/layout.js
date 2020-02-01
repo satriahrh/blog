@@ -1,7 +1,9 @@
 import React from "react"
 import module from "../styles/layout.module.scss"
+import "normalize.css"
 
 import Header from "./header"
+import Footer from "./footer"
 
 class Layout extends React.Component {
   render() {
@@ -11,11 +13,7 @@ class Layout extends React.Component {
       <>
         <Header>{title}</Header>
         <main className={module.layout}>{children}</main>
-        <footer className={module.footer}>
-          {title} © 2019 2020 e:{" "}
-          <a href="mailto:satria@gmail.com">satria@gmail.com</a> t:{" "}
-          <a href="https://twitter.com/satriahrh">@satriahrh</a>
-        </footer>
+        <Footer title={title} />
       </>
     )
   }
