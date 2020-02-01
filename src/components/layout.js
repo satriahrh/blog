@@ -1,5 +1,5 @@
 import React from "react"
-import module from "../styles/layout.module.scss";
+import module from "../styles/layout.module.scss"
 
 import Header from "./header"
 
@@ -12,10 +12,11 @@ class Layout extends React.Component {
         <Header>{title}</Header>
         <main>{children}</main>
         <footer className={module.footer}>
-          {title} © {new Date().getFullYear()} e: <a href="mailto:blog.satria@gmail.com">blog.satria@gmail.com</a> t: <a href="https://twitter.com/satriahrh">@satriahrh</a>
+          {title} © 2019 2020 e:{" "}
+          <a href="mailto:satria@gmail.com">satria@gmail.com</a> t:{" "}
+          <a href="https://twitter.com/satriahrh">@satriahrh</a>
         </footer>
-      </div
-        >
+      </div>
     )
   }
 }
