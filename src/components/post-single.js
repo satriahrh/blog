@@ -16,6 +16,7 @@ const PostSingle = props => {
         dangerouslySetInnerHTML={{ __html: post.html }}
       />
       <footer>
+        <hr className={module.line} />
         <Bio />
       </footer>
     </article>
