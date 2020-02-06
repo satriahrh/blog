@@ -51,7 +51,6 @@ func (d *DebitCard) Pay() {
 ```
 
 Then you also need to implement the interface for `CreditCard`
-
 ```
 type CreditCard struct {
 }
