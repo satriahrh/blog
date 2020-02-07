@@ -14,7 +14,7 @@ class BlogPostTemplate extends React.Component {
 
     const siteTitle = siteMetadata.title
     const disqusConfig = {
-      url: `${siteMetadata.siteUrl}/${post.fields.slug}`,
+      url: `${siteMetadata.siteUrl}${post.fields.slug}`,
       identifier: post.fields.slug,
       title: post.frontmatter.title,
     }
@@ -67,6 +67,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
