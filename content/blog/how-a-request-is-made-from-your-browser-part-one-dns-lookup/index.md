@@ -1,5 +1,5 @@
 ---
-title: "How a Request Made From Your Browser: Part 1 DNS Lookup"
+title: "How a Request is Made From Your Browser: Part 1 DNS Lookup"
 location: "Jakarta, Indonesia"
 date: "2020-02-23"
 language: "en"
