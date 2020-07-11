@@ -16,7 +16,7 @@ But I will tell you as general as possible, so you can take me as an example to 
 
 ## Built up from Kanban Board
 
-![Epic Kanban Board](./kanban-board.png)
+![Epic Kanban Board](./kanban-board.jpg)
 
 First, I came up with this epic kanban board consisting of a list of Todo, In Progress, Review, Test, Done.
 If you are a software engineer alike, this is a suitable board for you if your only task is coding.
@@ -27,7 +27,7 @@ Obviously not suitable for my needs, though I still made this board as my very f
 
 ## Accommodates any kind of task and brings focus
 
-![Inspired by Mise-En-Place which Justin Gallagher uses everyday](./mise-en-place.png)
+![Inspired by Mise-En-Place which Justin Gallagher uses everyday](./mise-en-place.jpg)
 
 Once I arrived at this point, the new board of mine is applicable for any kind of task.
 By this point, anything your job position will be suitable for this board! Welcome to the club yay.
@@ -50,7 +50,7 @@ That was it until at some moment I lost control on updating where to put that ta
 
 ## Schedule and priority
 
-![Ilustration of My Desk](./my-desk.png)
+![Ilustration of My Desk](./my-desk.jpg)
 
 Two things that I forgot from my previous board was schedule and priority.
 After some exhausting weeks in using the previous board by regular update and over focus, I got a vision on how to clean up this mess starting from how I look at my desk.
@@ -91,7 +91,7 @@ Thanks for today's hype, I can take some more tasks from the Cabinet so that I c
 
 ## I use Trello
 
-![Trello Calendar](./trello-calendar.png)
+![Trello Calendar](./trello-calendar.jpg)
 
 Lucky you could have a virtual desk on Trello.
 You could bird eye view your tasks in Calendar view.
@@ -104,7 +104,7 @@ I can’t tell you right now, sorry Trello ain’t nothing to give you a free ex
 
 ## Afterwords
 
-![Trello Template at https://trello.com/b/rrtDK8YN](./trello-template.png)
+![Trello Template at https://trello.com/b/rrtDK8YN](./trello-template.jpg)
 
 That was it, a giant leap into my productivity so far.
 Very basic, very simple to bring joy in your life, even vanish frown on my forehead.
