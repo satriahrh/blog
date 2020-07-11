@@ -15,7 +15,7 @@ jobs:
           node-version: 10.15.3
       - name: Git Config
         run: |
-          git config --global user.email "action@github.com"
+          git config --global user.email "satriahrh@gmail.com"
           git config --global user.name "GitHub Action"
       - name: Install Dependencies
         run: npm ci
