@@ -6,7 +6,7 @@ description: "Very basic, very simple way to brings joy and productivity to your
 language: "en"
 ---
 
-You are a software engineer or employee at an IT company, because this is who I am, though it can be applicable for any of you who work in different roles.
+You are a software engineer or employee at an IT company, because this is who I am, though this story can be applicable for anyone.
 Your daily busy tasks would be technical related like do some code, code review, meeting with product, check production alert, operational task, etc.
 Once you fall into a managerial career such as tech lead, I can guarantee you that your life no longer will be the same as before.
 To handle such a mess, I recommend you to clean up your day by bringing a personal productivity board to your work routine.
