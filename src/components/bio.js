@@ -21,18 +21,18 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        // marginBottom: rhythm(2.5),
-      }}
-    >
+    <div>
       <p>
         Written by <strong>{author}</strong>, Software Engineer Backend,
-        currently at Jakarta and always open.
+        currently at Jakarta, Indonesia.
         {` `}
-        You should <strike>hire</strike> contact me :D by email at{" "}
+        You should <strike>hire</strike> contact me by email at{" "}
         <a href="mailto:satriahrh@gmail.com">satriahrh@gmail.com</a>
+      </p>
+      <p>
+        Do not forget to <strong>comment</strong> below,
+        and <strong>share</strong> my articles to your friend, and ask them to
+        discuss below.
       </p>
     </div>
   )
